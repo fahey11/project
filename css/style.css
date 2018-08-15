@@ -1,0 +1,117 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+.picture{
+    width: 25%;
+    height: 10%;
+}
+
+.picture.logo{
+    float: left;
+}
+.picture.login{
+    float: right;
+}
+.picture.analytic{
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+
+.search{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 35%;
+    padding: 10px;
+}
+
+.button{
+color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.header{
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 2px solid #800080;
+}
+
+.aid{
+  width: 50%;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+
+
+.margbot {
+  margin-bottom: 15px;
+}
+
+.reformed {
+  display: block;
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  max-width: 30%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+margin-right: 35%;
+font-size: 28px;
+}
+
+
+
+body {
+    background-color: #b19cd9;
+    font: 14px;
+    text-align: center;
+}
+
+
+input[type=text], select {
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+input[type=password], select {
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: #b19cd9;
+    }
+    .picture{
+        width: 100%;
+        height: 32%;
+        padding: 5px;
+    }
+
+    .picture.logo{
+        float: none;
+    }
+    .picture.login{
+        float: none;
+    }
+    .picture.analytic{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+}
